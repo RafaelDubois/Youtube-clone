@@ -42,7 +42,7 @@ useEffect(() => {
           mb={2}
           sx={{ color: "white" }}
         >
-          <span style={{ color: "#FC1503" }}>Videos</span>{selectedCategory}
+          <span style={{ color: "#FC1503" }}>Videos</span> {selectedCategory}
         </Typography>
 
         <Videos videos={videos} />
