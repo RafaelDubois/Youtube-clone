@@ -15,7 +15,7 @@ import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
-  { name: 'Nouvelles', icon: <HomeIcon />, },
+  { name: 'Récentes', icon: <HomeIcon />, },
   { name: 'Code', icon: <CodeIcon />, },
   { name: 'JS Mastery', icon: <CodeIcon />, },
   { name: 'ReactJS', icon: <CodeIcon />, },
