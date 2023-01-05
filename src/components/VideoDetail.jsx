@@ -17,7 +17,7 @@ const VideoDetail = () => {
    .then((data) => setVideoDetail(data.items[0]))
 
    fetchFromAPI(`search?part=snippet&relatedToVideoId=${id}&type=video`)
-      .then((data) => setVideos(data.items[0]))
+      .then((data) => setVideos(data.items))
  }, [id])
 // Destructure
  if(!videoDetail?.snippet) return <Loader />;
